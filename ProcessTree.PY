@@ -7,11 +7,11 @@ from azure.kusto.data import KustoClient, KustoConnectionStringBuilder
 from azure.kusto.data.helpers import dataframe_from_result_table
 
 # Kusto connection settings
-cluster = "https://<your-cluster>.kusto.windows.net"
-database = "<your-database>"
-client_id = "<your-client-id>"
-client_secret = "<your-client-secret>"
-authority_id = "<your-tenant-id>"
+cluster = ""
+database = ""
+client_id = ""
+client_secret = ""
+authority_id = ""
 
 # Create Kusto connection string
 kcsb = KustoConnectionStringBuilder.with_aad_application_key_authentication(
